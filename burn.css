@@ -1,0 +1,80 @@
+/* general */
+* {
+	/* fix the chrom affix problem*/
+    box-sizing:content-box;
+}
+.no-gutter{
+	padding-left:0;
+	padding-right:0;
+}
+.no-gutter [class*="col-"]:first-child  {
+	padding-left:0;
+}
+
+.no-gutter [class*="col-"]:last-child {
+	padding-right: 0;
+}
+
+body {
+	font-size: 1.2rem;
+}
+
+/* menu */
+#brand.well {
+	height:150px;
+}
+
+#nav.affix {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+/* home */
+#home {
+	position: relative;	
+	background: #000;
+	color: #fff;
+}
+#home h1 {
+	font-size: 5rem;
+	position: absolute;
+	display: block;
+	z-index: 2;
+}
+#home .hero {
+	z-index: 0;
+}
+#home .register {
+	padding: 1em 0;
+}
+#home .countdown {
+	font-size: 3rem;
+	background:#660000;
+	color: #fff;
+}
+#home .countdown>div {
+	display: inline-block;
+	margin: 22px 1em;
+}
+#home .countdown .unit{
+	font-size: 1.2rem;
+}
+
+/* info */
+#info {
+	position relative;
+}
+#info .time-local {
+	padding: 70px 0;
+}
+#info .details {
+	color: #fff;
+	background-image: url(images/info-01.jpg);
+
+}
+/* race day */
+#race-day {
+	background: #660000;
+	color: #fff;
+}
