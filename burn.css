@@ -1,19 +1,19 @@
 /* general */
 * {
 	/* fix the chrom affix problem*/
-    box-sizing:content-box;
+    // box-sizing:content-box;
 }
-.no-gutter{
+section.container-fluid{
 	padding-left:0;
 	padding-right:0;
 }
-.no-gutter [class*="col-"]:first-child  {
-	padding-left:0;
-}
+// .no-gutter [class*="col-"]:first-child  {
+// 	padding-left:0;
+// }
 
-.no-gutter [class*="col-"]:last-child {
-	padding-right: 0;
-}
+// .no-gutter [class*="col-"]:last-child {
+// 	padding-right: 0;
+// }
 
 body {
 	font-size: 1.2rem;
@@ -27,7 +27,8 @@ body {
 #nav.affix {
 	position: fixed;
 	top: 0;
-	width: 100%
+	width: 100%;
+	z-index: 200;
 }
 
 /* home */
@@ -77,4 +78,9 @@ body {
 #race-day {
 	background: #660000;
 	color: #fff;
+}
+
+/* course */
+#course .btn {
+	margin: 20px auto;
 }

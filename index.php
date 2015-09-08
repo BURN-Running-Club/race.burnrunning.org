@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="burn.css">
 </head>
-<body class="no-gutter container-fluid">
+<body class="no-gutter">
 	<?php include("includes/menu.php") ?>
 	<?php include("includes/home.php") ?>
 	<?php include("includes/info.php") ?>
