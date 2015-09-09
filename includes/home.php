@@ -1,14 +1,17 @@
-<section id="home" class="container-fluid">
-	<h1>5K & HALF MARATHON</h1>
+<section id="home" class="container-fluid text-center">
+	<div class="container text-center">
+		<?php include("header.php") ?>
+		<h1>5K & HALF MARATHON</h1>
+	</div>
 	<img class="hero img-responsive" src="images/hero-01.jpg" alt=""/>
-	<div class="register text-center">
+	<div class="register">
 		<p>Saturday, October 10, 2015  8:00 AM<br/>
 			Coyote Hills Regional Park, Fremont, CA</p>
 
 			<button class="btn btn-danger">REGISTER TODAY</button>
 		</div>
 	</div>
-	<div class="countdown text-center row">
+	<div class="countdown row">
 		<div>
 			<div class="days"></div>
 			<div class="unit">Days</div>

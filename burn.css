@@ -23,11 +23,19 @@ body {
 #brand.well {
 	height:150px;
 }
-
+#nav li a {
+	color: #f00;
+}
+#nav .navbar-toggle {
+	// float: none;
+}
+#nav .navbar-toggle .icon-bar{
+	color: #fff;
+	border: 1px solid;
+}
 #nav.affix {
 	position: fixed;
 	top: 0;
-	width: 100%;
 	z-index: 200;
 }
 
@@ -39,7 +47,6 @@ body {
 }
 #home h1 {
 	font-size: 5rem;
-	position: absolute;
 	display: block;
 	z-index: 2;
 }
@@ -51,7 +58,7 @@ body {
 }
 #home .countdown {
 	font-size: 3rem;
-	background:#660000;
+	background:#f00;
 	color: #fff;
 }
 #home .countdown>div {
@@ -76,11 +83,47 @@ body {
 }
 /* race day */
 #race-day {
-	background: #660000;
+	background: #f00;
 	color: #fff;
 }
 
 /* course */
 #course .btn {
 	margin: 20px auto;
+}
+
+/* shirt */
+#shirt {
+	background: #666;
+	color: #fff;
+}
+#shirt .carousel-inner {
+	width: 80%;
+	margin: 0 auto;
+}
+#shirt .carousel-control {
+	background: none;
+}
+
+/* about-us */
+#about-us {
+	position: relative;
+}
+#about-us .content {
+	position: absolute;
+	top:150px;
+	color: white;
+	z-index: 2;
+}
+/* sponsors */
+#sponsors {
+	background: #eee;
+	padding-bottom: 150px;
+}
+
+/* footer */
+#footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }

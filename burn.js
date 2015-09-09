@@ -7,4 +7,6 @@ $(document).ready(function () {
 		$(this).find('.minutes').text(event.strftime('%M'))
 		$(this).find('.seconds').text(event.strftime('%S'))
 	});
+
+	$('.carousel').carousel();
 });
