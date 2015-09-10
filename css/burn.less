@@ -1,0 +1,259 @@
+/* fonts */
+@font-face {
+	font-family: 'Gotham Book';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+	font-family: 'Gotham Light';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Gotham-Light.otf") format("opentype");
+}
+@font-face {
+	font-family: 'Gotham Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Gotham-Medium.otf") format("opentype");
+}
+/* general reset */
+.hero {
+	width: 100%;
+}
+section.container-fluid{
+	padding: 2rem 0;
+}
+ul,
+ul li {
+	list-style-type: none;
+	a {
+		text-decoration: none;
+	}
+}
+.btn {
+	border-radius: 0;
+}
+.btn-danger,
+.btn-danger:hover {
+	background: #903;
+}
+.fa {
+	color: #666;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+body {
+	font-size: 120%;
+	font-family: Gotham Book, verdana, arial;
+
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 1.875rem;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+	h4, p {
+		font-size: 1.125rem;
+		line-height: 2rem;
+	}
+	strong {
+		font-family: Gotham Medium, verdana, arial;
+	}
+}
+
+/* menu */
+#brand {
+	height: 150px;
+	position: relative;
+	margin-top: 30px;
+}
+#nav {
+	border-radius: 0;
+}
+#nav li a,
+#nav nav a:hover {
+	font-size: 1.5rem;
+	color: #f00;
+	text-shadow: none;
+	background: transparent;
+}
+#nav .navbar-header {
+	cursor: pointer;
+}
+#nav .text {
+	font-size: 1.7rem;
+}
+#nav .navbar-toggle {
+	float:none;
+}
+#nav .navbar-toggle .icon-bar{
+	color: #fff;
+	border: 1px solid;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+#nav.affix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 200;
+	background: #000;
+}
+
+/* home */
+#home {
+	position: relative;	
+	color: #fff;
+	background: #000;
+	h1 {
+		font-family: Gotham Light, verdana, arial;
+		display: block;
+		z-index: 2;
+		position: relative;
+	}
+	.hero {
+		margin-top: -200px;
+	}
+	.register {
+		padding: 0 0 1em 0;
+	}
+	.countdown {
+		font-size: 3rem;
+		background:#600;
+		color: #fff;
+	}
+	.countdown>div {
+		display: inline-block;
+		margin: 22px 1em;
+	}
+	.countdown .unit{
+		font-size: 0.875rem;
+	}
+}
+
+/* info */
+#info {
+	position: relative;
+	h1 {
+		color: #600;
+	}
+	h3 {
+	}
+	p {
+		font-family: Gotham Light, verdana, arial;
+	}
+	.time-local {
+		margin: 4rem 0;
+	}
+	.details {
+		color: #fff;
+		position: relative;
+		overflow: hidden;
+		.text {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 2;
+			text-align: left;
+		}
+	}
+}
+
+/* race day */
+#race-day {
+	background: #600;
+	color: #fff;
+}
+
+/* course */
+#course {
+	.btn {
+		margin: 20px auto;
+	}
+	.map {
+		position: relative;
+		i {
+			position: absolute;
+			border-radius: 50%;
+			padding: .63em .55em .57em .65em;
+			background-color: rgba(0,0,0,0.4);
+			color: #fff;
+			top: 40%;
+			left: 40%;
+		}
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/* shirt */
+#shirt {
+	background: #666;
+	color: #fff;
+}
+#shirt .carousel-inner {
+	width: 80%;
+	margin: 0 auto;
+}
+#shirt .carousel-control {
+	background: none;
+}
+
+/* faq */
+#faq {
+	ul li {
+		font-size: 1.5rem;
+		line-height: 3rem;
+		a, 
+		.fa {
+			color: #900;
+		}
+		p {
+			text-indent: 1.2rem;
+		}
+	}
+}
+
+/* about-us */
+#about-us {
+	position: relative;
+	.content {
+		position: absolute;
+		top: 25rem;
+		left: 0;
+		color: white;
+		z-index: 2;
+		strong,
+		a {
+			color: #f00;
+		}
+	}
+}
+
+/* sponsors */
+#sponsors {
+	background: #eee;
+	padding-bottom: 150px;
+}
+
+/* footer */
+#footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}

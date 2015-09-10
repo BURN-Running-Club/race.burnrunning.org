@@ -3,16 +3,18 @@
 		<h2>FAQ</h2>
 		<p>PACKETS/AID STATIONS/POST RACE FESTIVITIES &amp; MORE </p>
 
-		<ul class="text-left row" id="accordion">
-			<li class="col-xs-6 col-xs-offset-3">
+		<ul class="text-left col-xs-6 col-xs-offset-3" id="accordion">
+			<li>
+				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
 					Race packet filled with great goodies?
 				</a>
-				<p id="collapse1" class="panel-collapse collapse in"> 
+				<p id="collapse1" class="panel-collapse collapse"> 
 					YES! 
 				</p>
 			</li>
-			<li class="col-xs-6 col-xs-offset-3">
+			<li>
+				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
 					FREE moisture wicking tech T-Shirt? 
 				</a>
@@ -21,7 +23,8 @@
 				</p>
 			</li>
 
-			<li class="col-xs-6 col-xs-offset-3">
+			<li>
+				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
 					Aid stations with drink &amp; snack? 
 				</a>
@@ -29,7 +32,8 @@
 					YES! 
 				</p>
 			</li>
-			<li class="col-xs-6 col-xs-offset-3">
+			<li>
+				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
 					Cheers along the route? 
 				</a>
@@ -37,7 +41,8 @@
 					YES! 
 				</p>
 			</li>
-			<li class="col-xs-6 col-xs-offset-3">
+			<li>
+				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
 					Free high resolution photos?  
 				</a>
@@ -45,7 +50,8 @@
 					YES! 
 				</p>
 			</li>
-			<li class="col-xs-6 col-xs-offset-3">
+			<li>
+				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
 					Post race fun and festival for all ages? 
 				</a>
