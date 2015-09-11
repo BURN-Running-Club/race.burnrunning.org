@@ -18,4 +18,22 @@ $(document).ready(function () {
 	$('#faq ul li').click(function(){
 		$(this).find('i').toggleClass('fa-plus-circle fa-minus-circle')
 	});
+
+	$('#contact-form').submit(function(e){
+		e.preventDefault();
+		$.ajax({
+			type: "POST",
+			url: "mailer.php",
+			data: $('#contact-form').serialize(),
+			success: function(captch){
+				if (captch == 1) {
+					console.log(captch)
+					$('.captcha-status').text("Your form is successfully Submitted ").show().delay(1000).fadeOut('slow');
+				} else {
+					$('.captcha-status').text("Human verification Wrong!").fadeIn();
+					console.log(captch)
+				}
+			}
+		});
+	});
 });
