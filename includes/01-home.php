@@ -1,7 +1,9 @@
 <section id="home" class="container-fluid text-center">
-	<?php include("header.php") ?>
-	<h1>5K & HALF MARATHON</h1>
-	<img class="hero center-block" src="images/hero-01.jpg" alt=""/>
+	<div class="container fg-text">
+		<?php include("header.php") ?>
+		<h1>5K & HALF MARATHON</h1>
+	</div>
+	<img class="center-crop" src="images/hero-01.jpg" alt=""/>
 	<div class="register">
 		<h3>SATURDAY, OCTOBER 10, 2015  8:00 AM</h3>
 		<h4>Coyote Hills Regional Park, Fremont, CA</h4>

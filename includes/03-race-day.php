@@ -2,19 +2,19 @@
 	<div class="container col-xs-8 col-xs-offset-2">
 		<h2 class="text-center">Race Day</h2>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-sm-6">
 				<h3 class="text-center">
 					<i class="fa fa-clock-o fa-3x"></i>
 					<span class="vcenter">Start Time</span>
 				</h3>
 				<div class="row">
-					<strong class="col-xs-5">8:00AM, Half Marathon</strong>
-					<strong class="col-xs-7">8:30AM, 5K  The cut off time for</strong>
+					<strong class="col-xs-7">8:00AM, Half Marathon</strong>
+					<strong class="col-xs-5">8:30AM, 5K</strong>
 				</div>
 				<p>The cut off time for Half Marathon is 4 hours, for 5K is 3 hours and half (Plenty time to stroll through the park and enjoy the beautiful view!). </p>
 				<p>All races will be professionally timed. Time will be texted to you and/or sent to your email address on race day! </p>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-sm-6">
 				<h3 class="text-center">
 					<i class="fa fa-trophy fa-3x"></i>
 					<span class="vcenter">Awards</span>

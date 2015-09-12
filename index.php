@@ -13,15 +13,15 @@
  	<script type="text/javascript" src="js/burn.js"></script>
 </head>
 <body class="no-gutter">
-	<?php include("includes/home.php") ?>
-	<?php include("includes/info.php") ?>
-	<?php include("includes/race-day.php") ?>
-	<?php include("includes/course.php") ?>
-	<?php include("includes/shirt.php") ?>
-	<?php include("includes/faq.php") ?>
-	<?php include("includes/about-us.php") ?>
-	<?php include("includes/contact-us.php") ?>
-	<?php include("includes/sponsors.php") ?>
-	<?php include("includes/footer.php") ?>
+	<?php include("includes/01-home.php") ?>
+	<?php include("includes/02-info.php") ?>
+	<?php include("includes/03-race-day.php") ?>
+	<?php include("includes/04-course.php") ?>
+	<?php include("includes/05-shirt.php") ?>
+	<?php include("includes/06-faq.php") ?>
+	<?php include("includes/07-about-us.php") ?>
+	<?php include("includes/08-contact-us.php") ?>
+	<?php include("includes/09-sponsors.php") ?>
+	<?php include("includes/10-footer.php") ?>
 </body>
 </html>

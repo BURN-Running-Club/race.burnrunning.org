@@ -1,5 +1,5 @@
 <section id="about-us" class="container-fluid">
-	<img class="hero center-block" src="images/about-us.jpg" alt="" />
+	<img class="center-crop" src="images/about-us.jpg" alt="" />
 	<div class="content">
 		<div class="col-xs-10 col-xs-offset-1">
 			<p><strong>BURN Running Club</strong> is a 501(c)3 not-for-profit organization. We promotes a healthy, motivated, socially responsible lifestyle. Our aspiration is to change lives around us. </p>

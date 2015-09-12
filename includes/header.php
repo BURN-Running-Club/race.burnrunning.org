@@ -1,7 +1,7 @@
 	<div id="brand">
 		<img class="center-block" src="images/logo.png" alt="BURN 5K/HM 2015"/>
 	</div>
-	<nav id="nav" class="navbar" role="navigation" data-spy="affix" data-offset-top="200"> 
+	<nav id="nav" class="navbar container" role="navigation" data-spy="affix" data-offset-top="200"> 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header" data-toggle="collapse" data-target="#main-menu">
 			<span type="button" class="navbar-toggle" data-toggle="collapse">Menu</span>
