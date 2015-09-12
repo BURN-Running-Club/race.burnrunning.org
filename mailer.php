@@ -1,11 +1,13 @@
 <?php
+require 'vendor/PHPMailer/PHPMailerAutoload.php';
 
 session_start();
 
 if ($_POST['captcha'] == $_SESSION['cap_code']) {
     $cap = 1;
     send();
-} else {
+} 
+else {
     $cap = 0;
 }
 
@@ -13,21 +15,45 @@ echo $cap;
 ?>
 
 <?php
-function send(){
-    $to = "mail@yourdomain.com"; 
-    $from = $_REQUEST['email']; 
-    $name = $_REQUEST['name']; 
-    $headers = "From: $from"; 
-    $subject = "You have a message sent from your site"; 
+function send() {
+ 
+	date_default_timezone_set('Etc/UTC');
+    $mail = new PHPMailer;
+    
+    $mail->SMTPDebug = 2; // Enable verbose debug output
 
-    $fields = array(); 
-    $fields{"name"} = "name"; 
-    $fields{"email"} = "email"; 
-    $fields{"phone"} = "phone"; 
-    $fields{"message"} = "message";
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth = true;
+    $mail->SMTPSecure = 'tls';    
+    $mail->Port = 587;
+    $mail->Username = 'contact@burnrunning.org';
+    $mail->Password = 'burn2015';
 
-    $body = "Here is what was sent:\n\n"; foreach($fields as $a => $b){   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); }
+    $mail->CharSet = 'UTF-8';
 
-    $send = mail($to, $subject, $body, $headers);
+	$from_email = $_POST['email'];
+	$from_name = $_POST['name'];
+	$to_email = 'contact@burnrunning.org';
+	$to_name = 'BURN Contact';
+
+    $mail->From = $_POST['email'];
+    $mail->FromName = $_POST['name'];
+    $mail->addAddress($to_email, $to_name);
+    $mail->addReplyTo($to_email, $to_name);
+    $mail->isHTML(true);
+    $mail->Subject = 'Burn Race Contact Email(testing, please ignore)';
+    $mail->Body = 'racing website mailer testing, please ignore...:\n';
+    
+
+    if (!$mail->send()) {
+        echo 'Message could not be sent.';
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
+    } 
+    else {
+        echo 'Message has been sent';
+    }
+
+
 }
 ?>
