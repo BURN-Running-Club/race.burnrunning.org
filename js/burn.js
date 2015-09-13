@@ -71,6 +71,7 @@ $.fn.centerCrop = function(){
 			'margin-left': 0.5 * ($parent.width() - $img.width())
 		});
 		$parent.css({
+			position: 'relative',
 			overflow: 'hidden'
 		});
 	}

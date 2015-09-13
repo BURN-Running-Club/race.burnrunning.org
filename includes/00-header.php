@@ -1,3 +1,4 @@
+<div class="container">
 	<div id="brand">
 		<img class="center-block" src="images/logo.png" alt="BURN 5K/HM 2015"/>
 	</div>
@@ -39,3 +40,4 @@
 			</ul>
 		</div>
 	</nav>
+</div>

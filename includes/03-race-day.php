@@ -1,5 +1,5 @@
 <section id="race-day" class="container-fluid">
-	<div class="container col-xs-8 col-xs-offset-2">
+	<div class="container">
 		<h2 class="text-center">Race Day</h2>
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">

@@ -1,6 +1,6 @@
 <section id="home" class="container-fluid text-center">
-	<div class="container fg-text">
-		<?php include("header.php") ?>
+	<div class="fg-text">
+		<?php include("00-header.php") ?>
 		<h1>5K & HALF MARATHON</h1>
 	</div>
 	<img class="center-crop" src="images/hero-01.jpg" alt=""/>

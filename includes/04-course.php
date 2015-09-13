@@ -1,6 +1,6 @@
-<section id="course" class="container text-center">
+<section id="course" class="container-fluid text-center">
 	<h2>COURSE</h2>
-	<div class="row maps">
+	<div class="maps container">
 		<div class="col-xs-12 col-sm-6 hm">
 			<h2>13 miles</h2>
 			<h4>Half Marathon</h4>

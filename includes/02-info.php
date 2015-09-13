@@ -1,6 +1,6 @@
 <section id="info" class="text-center container-fluid">
 	<div class="container">
-		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+		<div class="row">
 			<h2>BURN 2015</h2>
 			<h1>5K &amp; HALF MARATHON</h1>
 			<p><strong>On Saturday, October 10, 2015</strong>, experience a festive walk or run through the
@@ -15,8 +15,8 @@
 			</p>
 		</div>
 	</div>
-	<div class="time-local row">
-		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+	<div class="time-local container">
+		<div class="row">
 			<div class="col-xs-12 col-sm-4">
 				<i class="fa fa-calendar fa-4x"></i>
 				<h3>Saturday, October 10 2015</h3>
@@ -31,9 +31,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="details row">
-		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-			<div class="fg-text row">
+	<div>
+		<div class="fg-text row">
+			<div class="details container">
 				<div class="directions col-xs-12 col-sm-4">
 					<h3>DIRECTIONS</h3>
 					<p>We provide free parking about 2.3 miles away from the start line at DeVry University, 6600 Dumbarton Circle, Fremont, CA 94555. </p>
@@ -56,7 +56,7 @@
 					</p>
 				</div>
 			</div>
-		</div>
-		<img class="center-crop" src="images/info-01.jpg" alt="info"/>
+	</div>
+	<img class="center-crop" src="images/info-01.jpg" alt="info"/>
 	</div>
 </section>

@@ -3,7 +3,7 @@
 		<h2>FAQ</h2>
 		<p>PACKETS/AID STATIONS/POST RACE FESTIVITIES &amp; MORE </p>
 
-		<ul class="text-left col-xs-8 col-xs-offset-2" id="accordion">
+		<ul class="text-left" id="accordion">
 			<li>
 				<i class="fa fa-plus-circle"></i>
 				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">

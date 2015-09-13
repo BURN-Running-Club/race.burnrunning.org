@@ -1,6 +1,6 @@
 <section id="sponsors" class="container-fluid text-center">
+	<h2 class="text-center">SPONSORS</h2>
 	<div class="container">
-		<h2 class="text-center">SPONSORS</h2>
 		<div class="row">
 			<img class="col-xs-4 col-sm-4" src="images/sports-basement.png" alt="Sports Basement" />
 			<img class="col-xs-4 col-sm-4" src="images/trader-joes.png" alt="TRADER JOE'S" />

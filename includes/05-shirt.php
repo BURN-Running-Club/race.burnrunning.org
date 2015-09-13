@@ -4,6 +4,13 @@
 		<p>Available for purchase on the race day at $12/each</p>
 
 		<div id="shirt-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+			<!-- indicator -->
+			<ol class="carousel-indicators">
+				<li data-target="#shirt-carousel" data-slide-to="0" class="carousel-switcher active"></li>
+				<li data-target="#shirt-carousel" data-slide-to="1" class="carousel-switcher"></li>
+			</ol>
+
+			
 			<!-- slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -38,12 +45,8 @@
 			</a>
 
 		</div>
-			
-		<!-- indicator -->
-		<ol class="carousel-indicators">
-			<li data-target="#shirt-carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#shirt-carousel" data-slide-to="1"></li>
-		</ol>
+		
+
 
 	</div>
 </section>
