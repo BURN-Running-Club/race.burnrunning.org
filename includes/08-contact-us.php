@@ -22,6 +22,7 @@
 					<input type="text" class="form-control captcha-input" name="captcha" id="contact-captcha" required />
 				</div>
 				<div class="form-group col-xs-3">
+					<label>&nbsp;</label>
 					<img class="captcha img-responsive" src='captcha.php' />
 				</div>
 				<div class="col-xs-12 form-group captcha-status">&nbsp;</div>
@@ -37,13 +38,19 @@
 					contact@burnrunning.org
 				</a>
 			</h3>
-			<p>Follow us at </p>
+			<h4>Follow us at </h4>
 			<div class="row social-icons">
-				<a class="col-xs-2" href="https://www.facebook.com/groups/badunknown/">
+				<a href="https://www.facebook.com/groups/badunknown/">
 					<i class="fa fa-facebook fa-3x"></i>
 				</a>
-				<a class="col-xs-2" href="https://www.flickr.com/photos/burnrunning/">
+				<a href="https://www.flickr.com/photos/burnrunning/">
 					<i class="fa fa-flickr fa-3x"></i>
+				</a>
+				<a href="">
+					<i class="fa fa-instagram fa-3x"></i>
+				</a>
+				<a href="">
+					<i class="fa fa-twitter fa-3x"></i>
 				</a>
 			</div>
 		</div>

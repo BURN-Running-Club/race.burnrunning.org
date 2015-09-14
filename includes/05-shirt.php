@@ -37,11 +37,11 @@
 
 			<!-- Controls -->
 			<a class="left carousel-control" href="#shirt-carousel" role="button" data-slide="prev">
-				<i class="fa fa-angle-left fa-4x"></i>
+				<i class="fa fa-angle-left fa-3x"></i>
 			</a>
 
 			<a class="right carousel-control" href="#shirt-carousel" role="button" data-slide="next">
-				<i class="fa fa-angle-right fa-4x"></i>
+				<i class="fa fa-angle-right fa-3x"></i>
 			</a>
 
 		</div>

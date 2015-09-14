@@ -20,7 +20,7 @@
 					<span class="vcenter">Awards</span>
 				</h3>
 
-				<p>We will announce winner’s awards at 10:00 AM for the overall top 3
+				<p>We will announce winner's awards at 10:00 AM for the overall top 3
 				male/female finishers, followed by age group awards announcement. 
 				</p>
 

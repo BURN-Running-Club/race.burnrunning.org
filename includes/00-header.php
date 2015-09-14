@@ -1,20 +1,8 @@
 <div class="container">
-	<div id="brand">
-		<img class="center-block" src="images/logo.png" alt="BURN 5K/HM 2015"/>
+	<div id="brand" class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-5">
+		<img class="center-block img-responsive center-block" src="images/logo.png" alt="BURN 5K/HM 2015"/>
 	</div>
 	<nav id="nav" class="navbar container" role="navigation" data-spy="affix" data-offset-top="200"> 
-		<!-- Brand and toggle get grouped for better mobile display -->
-<!-- 		<div class="navbar-header" data-toggle="collapse" data-target="#main-menu">
-			<span type="button" class="navbar-toggle" data-toggle="collapse">Menu</span>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-		</div> -->
-		<!-- toggling between media-->
-		<!-- <div class="collapse navbar-collapse" id="main-menu"> -->
 		<div class="" id="main-menu">
 			<ul class="nav navbar-nav text-center">
 				<li class="active"> 
