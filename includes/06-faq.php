@@ -19,7 +19,7 @@
 					FREE moisture wicking tech T-Shirt? 
 				</a>
 				<p id="collapse2" class="panel-collapse collapse"> 
-					YES! 
+					 You got it! Hurry! Free t-shirt is limited to the first 100 registrants. And it is $12 afterwards, optional.  
 				</p>
 			</li>
 
@@ -29,7 +29,7 @@
 					Aid stations with drink &amp; snack? 
 				</a>
 				<p id="collapse3" class="panel-collapse collapse"> 
-					YES! 
+					FIVE for the Half Marathon course! 
 				</p>
 			</li>
 			<li>
@@ -38,7 +38,7 @@
 					Cheers along the route? 
 				</a>
 				<p id="collapse4" class="panel-collapse collapse"> 
-					YES! 
+					You will get A LOT!  
 				</p>
 			</li>
 			<li>
@@ -47,7 +47,7 @@
 					Free high resolution photos?  
 				</a>
 				<p id="collapse5" class="panel-collapse collapse"> 
-					YES! 
+					WOW! 
 				</p>
 			</li>
 			<li>
@@ -56,7 +56,7 @@
 					Post race fun and festival for all ages? 
 				</a>
 				<p id="collapse6" class="panel-collapse collapse"> 
-					YES! 
+					Absolutely! (Rumor is there will be special authentic food that you won't see at your ordinary post race!)  
 				</p>						
 			</li>
 		</ul>

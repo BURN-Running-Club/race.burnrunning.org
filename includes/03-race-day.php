@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<h3 class="text-center">
-					<i class="fa fa-clock-o fa-3x"></i>
+					<i class="fa fa-clock-o fa-3x"></i><br>
 					<span class="vcenter">Start Time</span>
 				</h3>
 				<div class="row">
@@ -16,7 +16,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<h3 class="text-center">
-					<i class="fa fa-trophy fa-3x"></i>
+					<i class="fa fa-trophy fa-3x"></i><br>
 					<span class="vcenter">Awards</span>
 				</h3>
 

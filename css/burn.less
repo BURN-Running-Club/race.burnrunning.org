@@ -25,11 +25,12 @@
 /* colors */
 
 @color-burn: #f00;
-@color-red: #933;
+@color-red: #600;
 @color-pink: #903;
 @color-white: #fff;
 @color-black: #000;
 @color-gray: #666;
+@color-gray-2: #999;
 @color-gray-light: #ccc;
 .color-red {
     color: @color-red;
@@ -39,7 +40,7 @@
 /* general reset */
 
 html, body {
-    font-size: 14px;
+    font-size: 12px;
     font-family: Gotham Book, verdana, arial;
 }
 
@@ -82,7 +83,7 @@ ul, ul li {
 }
 
 .fa {
-    color: @color-gray;
+    color: @color-gray-light;
 }
 
 .fg-text {
@@ -108,29 +109,27 @@ section.container-fluid {
 
 #nav {
     border-radius: 0;
-}
-
-#nav li a, #nav nav a:hover {
-    color: @color-burn;
-    text-shadow: none;
-    background: transparent;
-}
-
-#nav .navbar-header {
-    cursor: pointer;
-}
-
-#nav .text {
-    font-size: 1.7rem;
-}
-
-#nav .navbar-toggle {
-    float: none;
-}
-
-#nav .navbar-toggle .icon-bar {
-    color: @color-white;
-    border: 1px solid;
+    li {
+        display: inline-block;
+    }
+    li a, nav a:hover {
+        color: @color-burn;
+        text-shadow: none;
+        background: transparent;
+    }
+    .navbar-header {
+        cursor: pointer;
+    }
+    .text {
+        font-size: 1.7rem;
+    }
+    .navbar-toggle {
+        float: none;
+    }
+    .navbar-toggle .icon-bar {
+        color: @color-white;
+        border: 1px solid;
+    }
 }
 
 .navbar .navbar-nav {
@@ -170,6 +169,7 @@ section.container-fluid {
     }
     .countdown {
         font-size: 3rem;
+        font-family: Gotham Light, verdana, arial;
         background: @color-red;
         color: @color-white;
     }
@@ -191,16 +191,20 @@ section.container-fluid {
     h1, h3 {
         color: @color-red;
     }
+    h3 {
+    	margin: 1rem;
+    }
     p {
         font-family: Gotham Light, verdana, arial;
     }
     .time-local>div>div {
-        margin: 4rem 0;
+        margin: 1.8rem 0;
     }
     .details {
         padding-top: 3%;
         &, h3 {
             color: @color-white;
+            margin-bottom: 0.5rem;
         }
         .fg-text {
             text-align: left;
@@ -217,13 +221,17 @@ section.container-fluid {
     &, h2, .fa {
         color: @color-white;
     }
+    .fa {
+        color: @color-gray-light;
+        margin-bottom: 0.5rem;
+    }
     h3 {
         margin: 2rem 0;
     }
     .vcenter {
         display: inline-block;
         vertical-align: bottom;
-        height: 3rem;
+        height: 2.5rem;
         float: none;
     }
 }
@@ -235,6 +243,13 @@ section.container-fluid {
     padding: 2rem 0;
     .btn {
         margin: 20px auto;
+        i {
+        	color: @color-white;
+        	vertical-align: middle;
+        }
+        span {
+        	display: inline-block;
+        }
     }
     .map {
         position: relative;
@@ -272,6 +287,9 @@ section.container-fluid {
                 display: inline-block;
                 width: 80%;
             }
+            .title {
+            	margin: 2rem 0 0.5rem;
+            }
             .sizes span {
                 margin: 0 1rem;
             }
@@ -279,8 +297,16 @@ section.container-fluid {
         .carousel-indicators {
             bottom: -3rem;
             li {
-                padding: 0.3rem;
+            	width: 0;
+            	height: 0;
+                padding: 0.4rem;
                 border-radius: 50%;
+                border-color: @color-gray-2;
+                background-color: @color-gray-2;
+                &.active {
+                	background-color: @color-white;
+                	border-color: @color-white;
+                }
             }
         }
         .carousel-control {
@@ -289,7 +315,7 @@ section.container-fluid {
         .fa {
             color: @color-white;
             position: absolute;
-            top: 40%;
+            top: 30%;
             z-index: 5;
             display: inline-block;
         }
@@ -311,7 +337,9 @@ section.container-fluid {
             color: @color-red;
         }
         p {
-            text-indent: 1.2rem;
+            padding-left: 1.5rem;
+            font-size: 1.4rem;
+            line-height: 2rem;
         }
     }
 }
@@ -323,7 +351,7 @@ section.container-fluid {
     position: relative;
     .content {
         color: white;
-        margin-top: 20%;
+        margin-top: 60%;
         strong, a {
             color: @color-burn;
         }
@@ -375,6 +403,9 @@ section.container-fluid {
 @media (min-width: 768px) {
     html, body {
         font-size: 14px;
+    }
+    #about-us .content {
+    	margin-top: 20%;
     }
 }
 

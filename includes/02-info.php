@@ -1,6 +1,6 @@
 <section id="info" class="text-center container-fluid">
 	<div class="container">
-		<div class="row">
+		<div class="">
 			<h2>BURN 2015</h2>
 			<h1>5K &amp; HALF MARATHON</h1>
 			<p><strong>On Saturday, October 10, 2015</strong>, experience a festive walk or run through the

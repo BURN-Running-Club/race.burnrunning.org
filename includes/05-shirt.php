@@ -10,7 +10,7 @@
 				<li data-target="#shirt-carousel" data-slide-to="1" class="carousel-switcher"></li>
 			</ol>
 
-			
+
 			<!-- slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -37,15 +37,15 @@
 
 			<!-- Controls -->
 			<a class="left carousel-control" href="#shirt-carousel" role="button" data-slide="prev">
-				<i class="fa fa-angle-left fa-5x"></i>
+				<i class="fa fa-angle-left fa-4x"></i>
 			</a>
 
 			<a class="right carousel-control" href="#shirt-carousel" role="button" data-slide="next">
-				<i class="fa fa-angle-right fa-5x"></i>
+				<i class="fa fa-angle-right fa-4x"></i>
 			</a>
 
 		</div>
-		
+
 
 
 	</div>
