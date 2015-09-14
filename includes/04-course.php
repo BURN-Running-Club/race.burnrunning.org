@@ -10,23 +10,20 @@
 				<a data-toggle="modal" data-target="#course-map-13">
 					<i class="fa fa-search-plus fa-3x"></i>
 				</a>
-				<div id="course-map-13" class="modal modal-lg fade"  tabindex="-1" role="dialog" aria-hidden="true">
+				<div id="course-map-13" class="modal fade"  tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
+						<div class="modal-header">
+							<h3 type="button" class="close" data-dismiss="modal">BACK</h3>
+						</div>
 						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">
-									<i class="fa fa-times"></i>
-								</button>
-								<h4 class="model-title">Half Marathon</h4>
-							</div>
 							<div class="modal-body">
-								<img class="img-responsive" src="images/course-13mi.jpg" alt="Hal marathon image missing" />
+								<img src="images/course-13mi.jpg" alt="Half Marathon Image Missing" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</figure>
-			<a class="btn btn-danger" href="">
+			<a class="btn btn-danger" href="images/course_map_13mi.pdf">
 				<i class="fa fa-arrow-circle-o-down fa-2x"></i>
 				<span>DOWNLOAD MAP</span>
 			</a>
@@ -43,20 +40,17 @@
 				<div id="course-map-5" class="modal fade"  tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">
-								<i class="fa fa-times"></i>
-							</button>
-							<h4 class="model-title">5K</h4>
+							<h3 type="button" class="close" data-dismiss="modal">BACK</h3>
 						</div>
 						<div class="modal-content">
 							<div class="modal-body">
-								<img class="img-responsive" src="images/course-5km.jpg" alt="5k Image Missing" />
+								<img src="images/course-5km.jpg" alt="5k Image Missing" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</figure>
-			<a class="btn btn-danger" href="">
+			<a class="btn btn-danger" href="images/course_map_5K.pdf">
 				<i class="fa fa-arrow-circle-o-down fa-2x"></i>
 				<span>DOWNLOAD MAP</span>
 			</a>

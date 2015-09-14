@@ -276,12 +276,35 @@ section.container-fluid {
 		img {
 			width: 100%;
 		}
+		// .modal-dialog {
+		// 	background: @color-white;
+		// 	overflow: scroll;
+		// 	width: 90%;
+		// 	height: 90%;
+		// 	.modal-content {
+		// 		box-shadow: none;
+		// 		border: none;
+		// 	}
+		// 	img {
+		// 		width: initial;
+		// 		max-width: initial;
+		// 	}
+		// }
 		.modal-dialog {
 			background: @color-white;
-			.fa {
-				color: @color-black;
+			width: 100%;
+			height: 100%;
+			.modal-header {
+				height: 3rem;
+				.close {
+					opacity: 1;
+				}
 			}
-			.modal-body {
+			.modal-content {
+				box-shadow: none;
+				border: none;
+				width: 100%;
+				height: 100%;
 				overflow: scroll;
 				img {
 					width: initial;
