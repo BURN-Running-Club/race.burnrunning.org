@@ -17,12 +17,11 @@
 					<label for="#contact-message">Message</label>
 					<textarea name="message" class="form-control message" id="contact-message" required></textarea>
 				</div>
-				<div class="form-group col-xs-9">
+				<div class="form-group col-xs-7">
 					<label for="#contact-captcha">Enter the text in the image</label>
 					<input type="text" class="form-control captcha-input" name="captcha" id="contact-captcha" required />
 				</div>
-				<div class="form-group col-xs-3">
-					<label>&nbsp;</label>
+				<div class="form-group col-xs-5">
 					<img class="captcha img-responsive" src='captcha.php' />
 				</div>
 				<div class="col-xs-12 form-group captcha-status">&nbsp;</div>
