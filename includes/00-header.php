@@ -9,22 +9,22 @@
 					<a class="scroll" href="#info">Info</a>
 				</li>
 				<li > 
-					<a class="scroll" href="#race-day">Race Day</a>
+					<a class="scroll" href="#race-day" scroll-adjust="-115">Race Day</a>
 				</li>
 				<li > 
-					<a class="scroll" href="#course">Course</a>
+					<a class="scroll" href="#course" scroll-adjust="-100">Course</a>
 				</li>
 				<li > 
-					<a class="scroll" href="#faq">FAQ</a>
+					<a class="scroll" href="#faq" scroll-adjust="-100">FAQ</a>
 				</li>
 				<li > 
-					<a class="scroll" href="#about-us">About Us</a>
+					<a class="scroll" href="#about-us" scroll-adjust="-350">About Us</a>
 				</li>
 				<li > 
-					<a class="scroll" href="#contact-us">Contact Us</a>
+					<a class="scroll" href="#contact-us" scroll-adjust="-50">Contact Us</a>
 				</li>
 				<li > 
-					<a class="scroll" href="#sponsors">Sponsors</a>
+					<a class="scroll" href="#sponsors" scroll-adjust="0">Sponsors</a>
 				</li>
 			</ul>
 		</div>
