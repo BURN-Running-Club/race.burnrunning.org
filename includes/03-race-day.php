@@ -8,8 +8,8 @@
 					<span class="vcenter">Start Time</span>
 				</h3>
 				<div class="row">
-					<strong class="col-xs-7">8:00AM, Half Marathon</strong>
-					<strong class="col-xs-5">8:30AM, 5K</strong>
+					<strong class="col-xs-7">8:30AM, Half Marathon</strong>
+					<strong class="col-xs-5">8:45AM, 5K</strong>
 				</div>
 				<p>The cut off time for Half Marathon is 4 hours, for 5K is 3 hours and half (Plenty time to stroll through the park and enjoy the beautiful view!). </p>
 				<p>All races will be professionally timed. Time will be texted to you and/or sent to your email address on race day! </p>

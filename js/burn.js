@@ -8,12 +8,17 @@ $(document).ready(function () {
 	});
 
 	/* carousel */
-	$('.carousel').carousel();
-	// $('.carousel').swiperight(function() {
-	// 	$(this).carousel('prev');
- //    }).swipeleft(function() {
- //    	$(this).carousel('next');
- //    });
+	$('.carousel').carousel({
+		interval: false
+	});
+	$('.carousel').swipe({
+		swipeLeft: function() {
+			$(this).carousel('next');
+		},
+		swipeRight: function(){
+			$(this).carousel('prev');
+		}
+	})
 
 	/* smooth scroll */
 	$('a.scroll').click(function(){

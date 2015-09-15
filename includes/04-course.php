@@ -5,7 +5,7 @@
 			<h2>13 miles</h2>
 			<h4>Half Marathon</h4>
 			<figure class="map">
-				<img class="original-size" src="images/course-13mi.jpg" alt="5KM Marathon Image Missing" />
+				<img class="original-size" src="images/route_sheet_13mi_thumb.gif" alt="5KM Marathon Image Missing" />
 
 				<a data-toggle="modal" data-target="#course-map-13">
 					<i class="fa fa-search-plus fa-3x"></i>
@@ -17,22 +17,22 @@
 						</div>
 						<div class="modal-content">
 							<div class="modal-body">
-								<img src="images/course-13mi.jpg" alt="Half Marathon Image Missing" />
+								<img src="images/route_sheet_13mi_1600pix.gif" alt="Half Marathon Image Missing" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</figure>
-			<a class="btn btn-danger" href="images/course_map_13mi.pdf">
+			<a class="btn btn-danger" target="_blank" href="images/route_sheet_13mi.pdf">
 				<i class="fa fa-arrow-circle-o-down fa-2x"></i>
 				<span>DOWNLOAD MAP</span>
 			</a>
 		</div>
 		<div class="col-xs-12 col-sm-6">
 			<h2>5 km</h2>
-			<h4>&nbsp;</h4>
+			<h4 class="hidden-xs">&nbsp;</h4>
 			<figure class="map">
-				<img class="original-size" src="images/course-5km.jpg" alt="5KM Marathon Image Missing" />
+				<img class="original-size" src="images/route_sheet_5km_thumb.gif" alt="5KM Marathon Image Missing" />
 
 				<a data-toggle="modal" data-target="#course-map-5">
 					<i class="fa fa-search-plus fa-3x"></i>
@@ -44,13 +44,13 @@
 						</div>
 						<div class="modal-content">
 							<div class="modal-body">
-								<img src="images/course-5km.jpg" alt="5k Image Missing" />
+								<img src="images/route_sheet_5km_1600pix.gif" alt="5k Image Missing" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</figure>
-			<a class="btn btn-danger" href="images/course_map_5K.pdf">
+			<a class="btn btn-danger" target="_blank" href="images/route_sheet_5K.pdf">
 				<i class="fa fa-arrow-circle-o-down fa-2x"></i>
 				<span>DOWNLOAD MAP</span>
 			</a>
