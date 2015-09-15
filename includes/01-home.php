@@ -8,7 +8,7 @@
 		<h3>SATURDAY, OCTOBER 10, 2015  8:00 AM</h3>
 		<h4>Coyote Hills Regional Park, Fremont, CA</h4>
 
-		<button class="btn btn-danger">REGISTER TODAY</button>
+		<a class="btn btn-danger" target="_blank" href="http://burn2015.racewire.com/">REGISTER TODAY</a>
 	</div>
 	<div class="countdown row">
 		<div>
