@@ -14,8 +14,8 @@
 			<!-- slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="images/mens_shirt.png" alt="" />
-					<div class="title">Men's Half Marathon</div>
+					<img src="images/womens_shirt.png" alt="" />
+					<div class="title">Women's  T-shirt Available in:</div>
 					<div class="sizes">
 						<span>XS</span>
 						<span>S</span>
@@ -24,8 +24,8 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/womens_shirt.png" alt="" />
-					<div class="title">Women's Half Marathon</div>
+					<img src="images/mens_shirt.png" alt="" />
+					<div class="title">Men's T-shirt Available in:</div>
 					<div class="sizes">
 						<span>XS</span>
 						<span>S</span>

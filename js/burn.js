@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 	/* carousel */
 	$('.carousel').carousel({
-		interval: false
+		interval: 5000
 	});
 	$('.carousel').swipe({
 		swipeLeft: function() {
