@@ -15,6 +15,8 @@
 			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/xuchangfu_logo.png" alt="Xu Chang Fu" title="Xu Shi Fu"/>
 			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/wfg_logo.png" alt="WFG" title="WFG"/>
 			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/ranch99_logo.png" alt="Ranch 99" title="Ranch 99"/>
+			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/eastbayregionalpark_logo.png" alt="Ranch 99" title="Ranch 99"/>
+			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/zombie_runner_logo.png" alt="Ranch 99" title="Ranch 99"/>
 		</div>
 	</div>
 </section>
