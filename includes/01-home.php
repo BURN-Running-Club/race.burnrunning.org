@@ -17,7 +17,7 @@
 					<div>5km</div>
 				</div>
 				<div class="inline-block">
-					<div class="price">$25</div>
+					<div class="price">$35</div>
 					<div>13.1mi</div>
 				</div>
 			</div>
