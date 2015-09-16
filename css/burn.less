@@ -29,9 +29,10 @@
 @color-pink: #900;
 @color-white: #fff;
 @color-black: #000;
-@color-gray: #666;
-@color-gray-2: #999;
-@color-gray-light: #ccc;
+@color-gray-6: #666;
+@color-gray-9: #999;
+@color-gray-c: #ccc;
+@color-gray-e: #eee;
 .color-red {
     color: @color-red;
 }
@@ -50,7 +51,7 @@ h1 {
 
 h2 {
     font-size: 1.6666rem;
-    color: @color-gray;
+    color: @color-gray-6;
 }
 
 h3 {
@@ -90,7 +91,7 @@ ul, ul li {
 }
 
 .fa {
-    color: @color-gray-light;
+    color: @color-gray-c;
 }
 
 .fg-text {
@@ -99,7 +100,9 @@ ul, ul li {
     left: 0;
     width: 100%;
 }
-
+.inline-block {
+	display: inline-block;
+}
 section.container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -170,8 +173,8 @@ section.container-fluid {
     position: relative;
     color: @color-white;
     background: @color-black;
+    font-family: Gotham Light, verdana, arial;
     h1 {
-        font-family: Gotham Light, verdana, arial;
         display: block;
         z-index: 2;
         position: relative;
@@ -179,7 +182,27 @@ section.container-fluid {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
     .register {
-        padding: 0 0 1em 0;
+        padding: 0 0 2rem 0;
+        .column {
+        	height: 100%;
+        	vertical-align: middle;
+        	display: inline-block;
+        	float: none;
+        	margin-top: 1rem;
+        	&.date {
+        		h3 {
+        			font-size: 1.1rem;
+        		}
+        		h4 {
+        			font-size: 0.9rem;
+        		}
+        	}
+        	.price {
+        		text-align: center;
+        		margin: 0 0.5rem;
+        		font-size: 2rem;
+        	}
+        }
     }
     .countdown {
         font-size: 3rem;
@@ -206,7 +229,7 @@ section.container-fluid {
         color: @color-red;
     }
     h3 {
-        margin: 1rem;
+        margin: 2rem 0 0 0;
     }
     p {
         font-family: Gotham Light, verdana, arial;
@@ -215,10 +238,13 @@ section.container-fluid {
         margin: 1.8rem 0;
     }
     .details {
-        padding-top: 3%;
+        padding-top: 1rem;
+        &>div {
+        	padding-left: 1rem;
+        }
         &, h3 {
             color: @color-white;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
         }
     }
 }
@@ -233,7 +259,7 @@ section.container-fluid {
         color: @color-white;
     }
     .fa {
-        color: @color-gray-light;
+        color: @color-gray-c;
         margin-bottom: 0.5rem;
     }
     h3 {
@@ -283,7 +309,6 @@ section.container-fluid {
         }
         .modal-dialog {
             background: @color-white;
-            width: 80%;
             height: 70%;
             .modal-header {
                 height: 3rem;
@@ -311,7 +336,7 @@ section.container-fluid {
 
 #shirt {
     padding: 2rem 0;
-    background: @color-gray;
+    background: @color-gray-6;
     color: @color-white;
     position: relative;
     h2 {
@@ -339,8 +364,8 @@ section.container-fluid {
                 height: 0;
                 padding: 0.4rem;
                 border-radius: 50%;
-                border-color: @color-gray-2;
-                background-color: @color-gray-2;
+                border-color: @color-gray-9;
+                background-color: @color-gray-9;
                 &.active {
                     background-color: @color-white;
                     border-color: @color-white;
@@ -432,7 +457,7 @@ section.container-fluid {
     }
     .social-icons a {
         margin: 0 1rem;
-        color: @color-gray-light;
+        color: @color-gray-c;
     }
     .captcha {
         height: 4rem;
@@ -447,7 +472,7 @@ section.container-fluid {
 
 #sponsors {
     padding: 2rem 0 4rem;
-    background: @color-gray-light;
+    background: @color-gray-e;
     img {
         display: block;
     }
@@ -477,8 +502,14 @@ section.container-fluid {
     html, body {
         font-size: 14px;
     }
-    #home h1 {
-        margin-top: 8rem;
+    #home {
+    	h1 {
+    		margin-top: 8rem;
+    		text-align: center;
+    	}
+    	.date {
+    		text-align: left;
+    	}
     }
     #about-us .content {
         margin-top: 150px;

@@ -32,7 +32,7 @@
 			<h2>5 km</h2>
 			<h4 class="hidden-xs">&nbsp;</h4>
 			<figure class="map">
-				<img class="original-size" src="images/route_sheet_5km_thumb.gif" alt="5KM Marathon Image Missing" />
+				<img class="original-size" src="images/route_sheet_5k_thumb.gif" alt="5KM Marathon Image Missing" />
 
 				<a data-toggle="modal" data-target="#course-map-5">
 					<i class="fa fa-search-plus fa-3x"></i>
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 			</figure>
-			<a class="btn btn-danger" target="_blank" href="images/route_sheet_5K.pdf">
+			<a class="btn btn-danger" target="_blank" href="images/route_sheet_5k.pdf">
 				<i class="fa fa-arrow-circle-o-down fa-2x"></i>
 				<span>DOWNLOAD MAP</span>
 			</a>

@@ -33,7 +33,7 @@
 	</div>
 	<div>
 		<div class="fg-text row">
-			<div class="details container">
+			<div class="details container text-left">
 				<div class="directions col-xs-12 col-sm-4">
 					<h3>DIRECTIONS</h3>
 					<p>We provide free parking about 2.3 miles away from the start line at DeVry University, 6600 Dumbarton Circle, Fremont, CA 94555. </p>
