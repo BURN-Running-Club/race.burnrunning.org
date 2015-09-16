@@ -10,7 +10,7 @@
 				<a data-toggle="modal" data-target="#course-map-13">
 					<i class="fa fa-search-plus fa-3x"></i>
 				</a>
-				<div id="course-map-13" class="modal fade"  tabindex="-1" role="dialog" aria-hidden="true">
+				<div id="course-map-13" class="modal  animated bounceIn"  tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-header">
 							<h3 type="button" class="close" data-dismiss="modal">BACK</h3>
@@ -37,7 +37,7 @@
 				<a data-toggle="modal" data-target="#course-map-5">
 					<i class="fa fa-search-plus fa-3x"></i>
 				</a>
-				<div id="course-map-5" class="modal fade"  tabindex="-1" role="dialog" aria-hidden="true">
+				<div id="course-map-5" class="modal animated bounceIn"  tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-header">
 							<h3 type="button" class="close" data-dismiss="modal">BACK</h3>
