@@ -39,18 +39,18 @@
 			</h3>
 			<h4>Follow us at </h4>
 			<div class="row social-icons">
-				<a href="https://www.facebook.com/groups/badunknown/">
+				<a href="https://www.facebook.com/JoinTheBURN/">
 					<i class="fa fa-facebook fa-3x"></i>
 				</a>
 				<a href="https://www.flickr.com/photos/burnrunning/">
 					<i class="fa fa-flickr fa-3x"></i>
 				</a>
-				<a href="">
+<!-- 				<a href="">
 					<i class="fa fa-instagram fa-3x"></i>
 				</a>
 				<a href="">
 					<i class="fa fa-twitter fa-3x"></i>
-				</a>
+				</a> -->
 			</div>
 		</div>
 	</div>
