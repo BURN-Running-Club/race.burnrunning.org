@@ -64,8 +64,10 @@ p {
 	font-family: Gotham light, verdana, arial;
 }
 
-a {
+a, a:hover {
 	cursor: pointer;
+	color: @color-burn;
+	text-decoration: none;
 }
 
 strong {
@@ -238,13 +240,21 @@ section.container-fluid {
 		margin: 1.8rem 0;
 	}
 	.details {
-		padding-top: 1rem;
-		&>div {
-			padding-left: 1rem;
+		color: @color-white;
+		font-size: 1rem;
+		address {
+			margin-bottom: 0.2rem;
 		}
-		&, h3 {
-			color: @color-white;
+		h3 {
 			margin-bottom: 1rem;
+		}
+		h4 {
+			font-size: 1em;
+			margin: 1.5rem 0 0.5rem 0;
+		}
+		p {
+			margin: 0;
+			font-size: 0.8em;
 		}
 	}
 }
@@ -277,7 +287,7 @@ section.container-fluid {
 /* course */
 
 #course {
-	padding: 2rem 0;
+	padding: 1rem 0;
 	.btn {
 		margin: 20px auto;
 		i {
@@ -289,23 +299,30 @@ section.container-fluid {
 		}
 	}
 	h2 {
-		margin: 3rem auto 0;
+		margin: 2rem auto 1rem;
 	}
-	.map {
-		position: relative;
-		a {
-			top: 40%;
-			left: 40%;
-			position: absolute;
-			i {
-				border-radius: 50%;
-				padding: .63em .55em .57em .65em;
-				background-color: rgba(0, 0, 0, 0.4);
-				color: @color-white;
+	.maps {
+		.description {
+			strong {
+				color: @color-gray-6;
 			}
 		}
-		img {
-			width: 100%;
+		.map {
+			position: relative;
+			a {
+				top: 40%;
+				left: 40%;
+				position: absolute;
+				i {
+					border-radius: 50%;
+					padding: .63em .55em .57em .65em;
+					background-color: rgba(0, 0, 0, 0.4);
+					color: @color-white;
+				}
+			}
+			img {
+				width: 100%;
+			}
 		}
 	}
 	.modal {
@@ -532,6 +549,12 @@ section.container-fluid {
 		}
 		.date {
 			text-align: left;
+		}
+	}
+	#info .details {
+		font-size: 1.3rem;
+		h4 {
+			margin: 3rem 0 2rem;
 		}
 	}
 	#about-us .content {
