@@ -7,7 +7,7 @@
 			supported by our dedicated BURN volunteers. You will never run out of
 			hydration, snacks and cheers! Half marathon finishers will receive an inaugural
 			BURN 5K &amp; Half Marathon commemorative run shirt. Bring your family members, friends, co-workers and community groups to this non-competitive, high energy, fun run and walk. <br>
-			<strong>Run with us, BURN bright, you will be our star!</strong>
+			<strong>Run with us, BURN bright, you are the best!</strong>
 		</p>
 
 		<p>BURN is a fast growing non-profit running club rooted in the SF Bay Area promotes better health and better life. 
@@ -46,16 +46,15 @@
 				</div>
 				<div class="bib-pickup col-xs-12 col-sm-4">
 					<h4 class="text-center">BIB &amp; GEAR CHECKIN</h4>
-					<p>Early bib pickup is held on Friday Oct 9th, 12:00 - 5:00 pm at 
-						<address>
-							<a href="https://goo.gl/ERJyZ9" target="_blank">Sports Basement 1177 Kern Ave., Sunnyvale, CA 94085</a>. 
-						</address>
-					</p>
+					<p>Early bib pickup is held on Friday Oct 9th, 12:00 - 5:00 pm at </p>
+					<address>
+						<a href="https://goo.gl/ERJyZ9" target="_blank">Sports Basement 1177 Kern Ave., Sunnyvale, CA 94085</a>. 
+					</address>
 					<p> Race morning pickup: Saturday Oct 10th, 6:45 - 7:30am near start line. </p>
 					<p>You can check-in one gear bag near the start line, and pick up by 12:30pm at the same place.</p>
 				</div>
 			</div>
 		</div>
-		<img class="center-crop" src="images/info-01.jpg" alt="info"/>	</section>
+		<img class="center-crop" src="images/info-01.jpg" alt="info"/>
 	</div>
 </section>

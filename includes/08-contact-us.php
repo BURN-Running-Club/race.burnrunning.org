@@ -6,23 +6,23 @@
 			<p><strong>Leave us a message (all fields required)</strong></p>
 			<form id="contact-form" class="row" action="mailer.php" method="POST">
 				<div class="form-group col-xs-12 col-sm-6">
-					<label for="#contact-name">Name</label>
+					<label for="contact-name">Name</label>
 					<input type="text" class="form-control name" name="name" id="contact-name" required />
 				</div>
 				<div class="form-group col-xs-12 col-sm-6">
-					<label for="#contact-email">Email</label>
+					<label for="contact-email">Email</label>
 					<input type="email" class="form-control name" name="email" id="contact-email" required />
 				</div>
 				<div class="form-group col-xs-12">
-					<label for="#contact-message">Message</label>
+					<label for="contact-message">Message</label>
 					<textarea name="message" class="form-control message" id="contact-message" required></textarea>
 				</div>
 				<div class="form-group col-xs-7">
-					<label for="#contact-captcha">Enter the text in the image</label>
+					<label for="contact-captcha">Enter the text in the image</label>
 					<input type="text" class="form-control captcha-input" name="captcha" id="contact-captcha" required />
 				</div>
 				<div class="form-group col-xs-5">
-					<img class="captcha img-responsive" src='captcha.php' />
+					<img class="captcha img-responsive" alt="Coyote" src='captcha.php' />
 				</div>
 				<div class="col-xs-12 form-group captcha-status">&nbsp;</div>
 				<div class="form-group col-xs-12">
