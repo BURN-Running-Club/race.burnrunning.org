@@ -19,7 +19,7 @@
 				<div id="course-map-13" class="modal  animated bounceIn"  tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-header">
-							<h3 type="button" class="close" data-dismiss="modal">BACK</h3>
+							<h3 class="close" data-dismiss="modal">BACK</h3>
 						</div>
 						<div class="modal-content">
 							<div class="modal-body">
@@ -46,7 +46,7 @@
 				<div id="course-map-5" class="modal animated bounceIn"  tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-header">
-							<h3 type="button" class="close" data-dismiss="modal">BACK</h3>
+							<h3 class="close" data-dismiss="modal">BACK</h3>
 						</div>
 						<div class="modal-content">
 							<div class="modal-body">
@@ -61,4 +61,5 @@
 				<span>DOWNLOAD MAP</span>
 			</a>
 		</div>
-	</section>
+	</div>
+</section>

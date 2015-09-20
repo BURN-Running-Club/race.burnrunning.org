@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 	/* smooth scroll */
 	$('a.scroll').click(function(){
-		var scrollTop = Number($( $.attr(this, 'href') ).offset().top) + Number($(this).attr('scroll-adjust')) + $('#nav').height();
+		var scrollTop = Number($( $.attr(this, 'href') ).offset().top) + Number($(this).attr('data-scroll-adjust')) + $('#nav').height();
 		$('html, body').animate({
 			scrollTop: scrollTop
 		}, 500);

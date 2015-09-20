@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BURN 5K/HM 2015</title>
+	<title>BURN | YOUR ARE THE BEST!</title>
 	<meta charset="utf-8" />
 	<meta name="keywords" content="BURN,BURN Running,race,5k,half marathon">
 	<meta name="description" content="Burnrunning Club first race.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta property="og:image" content="http://race.burnrunning.org/images/logo.png" />
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="image_src" href="http://race.burnrunning.org/images/logo.png" >
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

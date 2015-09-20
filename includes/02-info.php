@@ -46,16 +46,15 @@
 				</div>
 				<div class="bib-pickup col-xs-12 col-sm-4">
 					<h4 class="text-center">BIB &amp; GEAR CHECKIN</h4>
-					<p>Early bib pickup is held on Friday Oct 9th, 12:00 - 5:00 pm at 
-						<address>
-							<a href="https://goo.gl/ERJyZ9" target="_blank">Sports Basement 1177 Kern Ave., Sunnyvale, CA 94085</a>. 
-						</address>
-					</p>
+					<p>Early bib pickup is held on Friday Oct 9th, 12:00 - 5:00 pm at </p>
+					<address>
+						<a href="https://goo.gl/ERJyZ9" target="_blank">Sports Basement 1177 Kern Ave., Sunnyvale, CA 94085</a>. 
+					</address>
 					<p> Race morning pickup: Saturday Oct 10th, 6:45 - 7:30am near start line. </p>
 					<p>You can check-in one gear bag near the start line, and pick up by 12:30pm at the same place.</p>
 				</div>
 			</div>
 		</div>
-		<img class="center-crop" src="images/info-01.jpg" alt="info"/>	</section>
+		<img class="center-crop" src="images/info-01.jpg" alt="info"/>
 	</div>
 </section>
