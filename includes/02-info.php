@@ -7,7 +7,7 @@
 			supported by our dedicated BURN volunteers. You will never run out of
 			hydration, snacks and cheers! Half marathon finishers will receive an inaugural
 			BURN 5K &amp; Half Marathon commemorative run shirt. Bring your family members, friends, co-workers and community groups to this non-competitive, high energy, fun run and walk. <br>
-			<strong>Run with us, BURN bright, you will be our star!</strong>
+			<strong>Run with us, BURN bright, you are the best!</strong>
 		</p>
 
 		<p>BURN is a fast growing non-profit running club rooted in the SF Bay Area promotes better health and better life. 
