@@ -19,6 +19,7 @@
 			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/wfg_logo.png" alt="WFG" title="WFG"/>
 			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/chinastix_logo.png" alt="China Stix" title="China Stix"/>
 			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/eastbayregionalpark_logo.png" alt="East Bay Regional Park" title="East Bay Regional Park"/>
+			<img class="col-xs-4 col-sm-3 col-md-2" src="images/sponsors/wqzwdt_logo.png" alt="Bay Area Chinese Radio" title="Bay Area Chinese Radio"/>
 		</div>
 	</div>
 </section>
