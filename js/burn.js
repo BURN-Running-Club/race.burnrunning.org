@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	/* count down clock */
-	$('.countdown').countdown('2015/10/10', function(event) {
+	$('.countdown').countdown('2015/10/10 8:30:00', function(event) {
 		$(this).find('.days').text(event.strftime('%D'))
 		$(this).find('.hours').text(event.strftime('%H'))
 		$(this).find('.minutes').text(event.strftime('%M'))
